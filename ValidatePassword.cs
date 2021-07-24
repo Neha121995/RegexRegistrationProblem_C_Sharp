@@ -7,7 +7,7 @@ namespace RegexRegistrationProblem
 {
     class ValidatePassword
     {
-        public static string Regex_Password = ".*(?=.{8,})(?=.*)(?=.*[a-z])(?=.*[A-Z])(?=.*[!*@#$%^&+=]).*$";
+        public static string Regex_Password = "^[A-Za-z]{8,}";
 
         public static String validatePassword(string password)
         {
