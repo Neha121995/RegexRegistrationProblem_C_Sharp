@@ -6,7 +6,10 @@ namespace RegexRegistrationProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Regex Registration Problem");
+            Console.Write("Enter The First Name ::");
+            String fname = Console.ReadLine();
+            Console.WriteLine(ValidFirstName.validateFirstName(fname));
+            Console.WriteLine();
         }
     }
 }
