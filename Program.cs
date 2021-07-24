@@ -6,9 +6,9 @@ namespace RegexRegistrationProblem
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter The Mobile Number ::");
-            String mobileNumber = Console.ReadLine();
-            Console.WriteLine(ValidateMobileNumber.validateMobileNumber(mobileNumber));
+            Console.Write("Enter The Password ::");
+            String password = Console.ReadLine();
+            Console.WriteLine(ValidatePassword.validatePassword(password));
             Console.WriteLine();
         }
     }
