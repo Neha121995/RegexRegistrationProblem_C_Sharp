@@ -6,9 +6,9 @@ namespace RegexRegistrationProblem
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter The First Name ::");
+            Console.Write("Enter The Last Name ::");
             String fname = Console.ReadLine();
-            Console.WriteLine(ValidFirstName.validateFirstName(fname));
+            Console.WriteLine(ValidLastName.validateLastName(fname));
             Console.WriteLine();
         }
     }
